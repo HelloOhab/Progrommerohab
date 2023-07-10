@@ -1,0 +1,230 @@
+/* Common shared CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+/* Common Styles */
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    color:  #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 25px;
+    border: none;
+}
+.common-title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.txt-align{
+    text-align: left;
+}
+.mb{
+    margin-bottom: 20px;
+}
+/* Nav Related forward Slash */
+.main-header{
+    padding: 50px 200px;
+    background-color: #FFF8F3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+nav li a{
+    text-decoration: none;
+}
+
+/* Banner CSS */
+.main-header{
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner img.portfolio-pic{
+    width: 500px;
+}
+.banner .banner-content .Banner-sub{
+    color: #474747;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+}
+.banner .banner-content h1{
+    color: #181818;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+}
+.banner .banner-content p{
+    color:  #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* About styles Css */
+.about{
+    max-width: 1140px;
+    margin: 130px auto;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.about-intro{
+    padding: 0px 165px;
+    text-align: center;
+}
+.about-intro p{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 15px;
+}
+.about-education{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 170px 0px 170px;
+}
+.about .education-info h3{
+    color: #757575;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about .education-info p{
+    color: #181818;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* Skill section styles css */
+.skill{
+    width: 1140px;
+    margin: 0 auto;
+}
+.skill .skill-intro p{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 15px;
+}
+.skill .skill-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+/* Resume section styles css */
+.my-resume{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 113px 0px;
+}
+.resume-intro{
+    padding-bottom: 80px;
+}
+.my-resume-info{
+    display: flex;
+    gap: 40px;
+
+}
+.my-resume-info h2{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.my-resume-info .edication-info{
+    padding-right: 60px;
+}
+.my-resume-info .edication-info h3 {
+    color: #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+.my-resume-info .edication-info h4 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.my-resume-info  .edication-info p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.my-resume-info hr{
+    margin: 30px 0px;
+    border: 1px solid #d1d1d161;
+}
+.download-resume{
+    text-align: center;
+    padding-top: 50px;
+}
+/* Footer Style CSS */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 80px;
+    background-color: #FFF8F3;
+    padding: 115px 200px;
+
+}
+.footer-left, .footer-right{
+    width: 50%;
+}
+.footer-right input[type="text"], .footer-right input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+.footer-left p{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 20px 20px 20px 0px;
+}
+.footer-social img{
+    padding-right: 20px;
+}
